@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: MQ
+  rabbitmq:
+    host: 47.108.198.18
+    port: 5672
+    virtual-host: host1
+    username: yeb
+    password: admin123
+server:
+  port: 8088
